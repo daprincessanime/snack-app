@@ -12,9 +12,13 @@ body {
   justify-content: center;
 }
 
-.count {
+.snackCount {
   font-size: 2em;
   margin: 10px;
+  background-color: black;
+  color: limegreen;
+  padding: 3px;
+  font-family: monospace;
 }
 
 .card {
