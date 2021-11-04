@@ -23,7 +23,10 @@ class App extends React.Component {
         <h1>Give Baby Yoda some snacks.</h1>
         <img src={babyYoda} alt="baby yoda" />
         <div className="card">
-          <div>Baby Yoda has eaten {this.state.snackCount} snacks.</div>
+          <div>
+            Baby Yoda has eaten{" "}
+            <span className="snackCount">{this.state.snackCount}</span> snacks.
+          </div>
 
           <button onClick={this.giveSnack}>Give snack</button>
         </div>
